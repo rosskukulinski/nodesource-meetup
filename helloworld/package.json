@@ -1,0 +1,14 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Simple Hello World server build for containers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/rosskukulinski/docker-philly",
+  "author": "Ross Kukulinski <ross@nodesource.com>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
