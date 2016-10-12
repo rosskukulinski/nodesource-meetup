@@ -1,6 +1,6 @@
 # Introduction to Kubernetes
-## Docker Philadelphia September 27, 2016
-## Ross Kukulinski <ross@kukulinski.com>
+## NodeSource Meetup October 12, 2016
+## Ross Kukulinski <ross@nodesource.com>
 
 ### Getting Started
 
