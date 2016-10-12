@@ -47,7 +47,7 @@ less Dockerfile
 ```
 
 ```
-docker build -t rosskukulinski/helloworld:v1.0.0 .
+docker build -t rosskukulinski/helloworld:v1 .
 ```
 
 ```
@@ -55,14 +55,14 @@ docker images
 ```
 
 ```
-docker push rosskukulinski/helloworld:v1.0.0
+docker push rosskukulinski/helloworld:v1
 ```
 
 ## Deploying Containers with Kubernetes
 
 
 ```
-kubectl run helloworld --image=rosskukulinski/helloworld:v1.0.0 --port=3000 --port 8000 --replicas=3 --labels=app=helloworld
+kubectl run helloworld --image=rosskukulinski/helloworld:v1 --port=3000 --port 8000 --replicas=3 --labels=app=helloworld
 ```
 
 ```

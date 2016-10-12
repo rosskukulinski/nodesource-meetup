@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "repository": "https://github.com/rosskukulinski/docker-philly",
+  "repository": "https://github.com/rosskukulinski/nodesource-meetup",
   "author": "Ross Kukulinski <ross@nodesource.com>",
   "license": "MIT",
   "dependencies": {

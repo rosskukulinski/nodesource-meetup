@@ -1,4 +1,4 @@
-FROM nodesource/nsolid:v1.3.1
+FROM nodesource/nsolid:v1.4.0
 
 RUN groupadd -r nodejs && useradd -m -r -g nodejs nodejs
 USER nodejs
@@ -16,6 +16,6 @@ EXPOSE 8000
 ENV NSOLID_APPNAME helloworld
 ENV NSOLID_HUB nsolid-registry.nsolid:4001
 ENV NSOLID_SOCKET 8000
-ENV NSOLID_TAGS nsolid-v1.3.1
+ENV NSOLID_TAGS nsolid-v1.4.0
 
 CMD ["node", "index.js"]
